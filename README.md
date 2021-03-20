@@ -2,9 +2,15 @@
 
 The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
 After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the souce data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-
-
-
+![image](https://user-images.githubusercontent.com/66819157/111865533-e2183f80-8924-11eb-8a46-fe369758a86c.png)
+As expected, the weather becomes significantaly warmer as one approaches the equator (Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
+![image](https://user-images.githubusercontent.com/66819157/111865541-f3614c00-8924-11eb-8407-ef969339eba5.png)
+Humidity does not show positive correlation to latitude. There is not so much relation between humidity and latitude.
+![image](https://user-images.githubusercontent.com/66819157/111865581-286d9e80-8925-11eb-9c98-ef8ee2f4825a.png)
+The plots, couldiness vs Latitude, does not show any trend. Cloudiness does not increase or decrease when latitude gets closer to the equator. Clouds likely form in abundance in the middle latitudes.
+![image](https://user-images.githubusercontent.com/66819157/111865609-52bf5c00-8925-11eb-8554-ae39a368e4ff.png)
+This plot shows that there is no trend or correlation between latitude and wind speed, as we get closet to the equator. Although the data suggests that there is higher wind speed when cities move further away the equator, we need more density of points to show the relation
+![image](https://user-images.githubusercontent.com/66819157/111865591-38857e00-8925-11eb-9587-52f3c2f34857.png)
 
 ## Background
 
